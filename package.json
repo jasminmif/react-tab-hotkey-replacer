@@ -1,0 +1,37 @@
+{
+    "name": "react-tab-hotkey-replacer",
+    "version": "1.0.0",
+    "description": "React component which can replacte the Tab Key behaviour with enter or another keyboard key",
+    "main": "dist/index.js",
+    "files": [
+        "dist/*"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+    },
+    "keywords": [
+        "react-tab-hotkey-replacer",
+        "react-tab-key-replacer",
+        "tab-key-replacer",
+        "tab-enter-replace",
+        "replace-tab-key-to-enter",
+        "replace-tab-with-enter",
+        "replace-tab-hotkey",
+        "tab-shortcut-replacer"
+    ],
+    "author": "Jasmin Miftari",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/preset-react": "^7.0.0"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0"
+    },
+    "dependencies": {
+        "keycode": "^2.2.0"
+    }
+}
